@@ -58,6 +58,7 @@ let currentCart = new Cart();
 
 for (let button of buttons) {
   button.onclick = function (event) {
+    alert("add to cart successfully.")
     currentCart.addCourse(
       event.target.closest("li").getAttribute("data-course-id")
     );

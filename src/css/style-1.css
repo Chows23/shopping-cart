@@ -1,0 +1,16 @@
+#add-to-cart {
+  background-color: #0d7aee;
+}
+
+#add-to-cart:hover {
+  color: #5f0b0b;
+  border: 2px solid #90454b;
+  color: rgb(133, 236, 15);
+  border: 2px solid rgb(158, 226, 33);
+}
+
+.cart-inner #delete {
+  color: #2c0546;
+  background-color: rgb(156, 214, 19);
+  cursor: pointer;
+}
