@@ -1,0 +1,39 @@
+$ history
+    3  history
+    4  git init
+    5  git add .
+    6  git commit -m "initialize the project."
+    7  git remote add origin https://github.com/Chows23/shopping-cart.git
+    8  git branch -M main
+    9  git push -u origin main
+   10  git log
+   11  mkdir src
+   12  git status
+   13  git add .
+   14  git commit -m "reorganize the project files into a src file."
+   15  npm init
+   16  npm i --save-dev gulp
+   17  touch gulpfile.js
+   18  touch .gitignore
+   19  git status
+   20  git add .
+   21  git commit -m "initialze npm install gulp and add gulpfile.js and add node_modules and dist into .gitignore."
+   22  git log
+   23  git branch colour-change
+   24  git checkout colour-change
+   25  git branch
+   26  git status
+   27  git add .
+   28  git commit -m "add style-1.css to mofify a color and add a feature to alert when the add to cart button click."
+   29  git checkout main
+   30  git merge colour-change
+   31  git branch
+   32  git branch -d colour-change
+   33  touch history.txt
+   34  history
+   35  git status
+   36  git add .
+   37  git commit -m "add history to history.txt."
+   38  git status
+   39  history
+
