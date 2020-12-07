@@ -37,3 +37,9 @@ $ history
    38  git status
    39  history
 
+
+  500  git add .
+  501  git status
+  502  git add .
+  503  git commit -m "minify, concatenate and add sourcemaps for css and js files."
+
