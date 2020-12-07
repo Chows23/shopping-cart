@@ -30,6 +30,7 @@ function scriptTask() {
 
 function imageTask() {
   return src('src/images/*')
+    .pipe(imagemin())
     .pipe(dest('dist/images'))
 }
 
